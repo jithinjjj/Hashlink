@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User_profile_page</title>
+    <script src="https://kit.fontawesome.com/c286026a79.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="user.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <h1><img width="75" src="free-hashtag-41-675828.png" alt="">HashLink</h1>
+            </div>
+            <div class="bars">
+                <span><i class="fa-solid fa-bars"></i></span>
+            </div>
+            <div class="nav">
+                <ul class="navlist">
+                    <li><h3><a href="index.html">Home</a></h3></li>
+                    <li><h3><a href="about.html">About</a></h3></li>
+                    <li><h3><a href="login.html">login</a></h3></li>
+                    <li><h3><a href="registration.html">Registration</a></h3></li>
+                    <li><h3><a href="contact.html">Contact</a></h3></li>
+                    <li class="active"><h3><a href="user.html">Account</a></h3></li>
+                </ul>
+            </div>
+        </header>
+        <div class="navmobile">
+            <ul>
+                <li>
+                    <span><i class="fa-solid fa-house-chimney-window"></i></span>
+                    <h3><a href="index.html">HOME</a></h3>
+                <li>
+                    <span><i class="fa-solid fa-address-card"></i></span>
+                    <h3><a href="about.html">ABOUT</a></h3>
+                </li>
+                <li>
+                    <span><i class="fa-solid fa-phone"></i></span>
+                    <h3><a href="contact.html">CONTACT</a></h3>
+                </li>
+                <li class="active">
+                    <span><i class="fa-solid fa-user"></i></span>
+                    <h3><a href="login.html">LOGIN</a></h3>
+                </li>
+                
+            </ul>
+        </div>
+        <div class="mbar">
+            <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
+        </div>
+        <aside class="sidebar">
+            <h1>expert details<span class="close"><i class="fa-solid fa-xmark"></i></span></h1>
+            <div class="userside">
+                <div class="userpic">
+                    <img width="100px" height="100px" src="user3.png" alt="">
+                </div>
+                <div class="userinfo">
+                    <span class="name">UserId</span>
+                    <span class="mail">UserName</span>
+                    <span class="status">Online</span>
+                </div>
+            </div>
+            <div class="search">
+                <form>
+                    <div class="row">
+                        <input type="text" placeholder="Search profile...">
+                        <button type="submit"><span><i class="fa-solid fa-magnifying-glass"></i></span></button>
+                    </div>
+                </form>
+            </div>
+            <div class="sidenav">
+                <h2>General</h2>
+                <nav>
+                    <ul>
+                        <li class="active" onclick="show(0)">
+                            <span><i class="fa-solid fa-user"></i></span>
+                            <h3>Profile</h3>
+                        </li>
+                        <li onclick="show(1)">
+                            <span><i class="fa-solid fa-circle-info"></i></span>
+                            <h3>Personal information</h3>
+                        </li>
+                        <li onclick="show(2)">
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <h3>Expertise information</h3>
+                        </li>
+                        <!-- <li onclick="show(3)">
+                            <span><i class="fa-solid fa-suitcase"></i></span>
+                            <h3>Experience</h3>
+                        </li> -->
+                        <!-- <li onclick="show(4)">
+                            <span><i class="fa-solid fa-graduation-cap"></i></span>
+                            <h3>Educational Qualification</h3>
+                        </li> -->
+                        <!-- <li onclick="show(5)">
+                            <span><i class="fa-solid fa-file"></i></span>
+                            <h3>Publications</h3>
+                        </li> -->
+                    </ul>
+                </nav>
+            </div>
+            <div class="btnav">
+                <ul>
+                    <li class="alert" title="alert">
+                        <span><i class="fa-solid fa-bell"></i></span>
+                    </li>
+                    <li class="message" title="message">
+                        <span><a href="contact.html"><i class="fa-solid fa-envelope"></i></a></span>
+                    </li>
+                    <li class="set" title="settings">
+                        <span><a href="user.html"><i class="fa-solid fa-gear"></i></a></span>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+        <div class="main">
+            <section class="profiletabs">
+                <h1>Your Profile</h1>
+                <div class="userpost">
+                    <div class="posts">
+                        <span><i class="fa-solid fa-plus"></i></span>
+                    </div>
+        
+                    <div class="posts">
+                        <img width="200" height="150" src="Research-Futures-image.jpg" alt="">
+                        <p>Title or Name</p>
+                    </div>
+                    <div class="posts">
+                        <img width="200" height="150" src="applied-research.jpg" alt="">
+                        <p>Title or Name</p>
+                    </div>
+                    <div class="posts">
+                        <img width="200" height="150" src="research.webp" alt="">
+                        <p>Title or Name</p>
+                    </div>
+                    <div class="posts">
+                        <img width="200" height="150" src="Researchblog.jpg" alt="">
+                        <p>Title or Name</p>
+                    </div>
+                    
+                </div>
+            </section>
+            <section class="tabs">
+                <h1>Personal information</h1>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae numquam maxime placeat, enim corporis natus! Quos laborum eum possimus corrupti.</p>
+            </section>
+            <section class="tabs">
+                <h1>Expertise information</h1>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae numquam maxime placeat, enim corporis natus! Quos laborum eum possimus corrupti.</p>
+            </section>
+            <!-- <section class="tabs">
+                <h1>Experience</h1>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae numquam maxime placeat, enim corporis natus! Quos laborum eum possimus corrupti.</p>
+            </section> -->
+        </div>
+    </div> 
+
+
+    <script src="jquery-3.6.1.min.js"></script>
+    <script>
+        const tbtn=document.querySelectorAll(".sidenav ul li")
+        const tab=document.querySelectorAll(".tabs,.profiletabs")
+        function show(panelIndex){
+            tab.forEach(function(node){
+                node.style.display="none";
+            })
+            tab[panelIndex].style.display="block";
+        }
+        show(0)
+    </script>
+    <script>
+        $(".sidenav ul li").click(function(){
+            $(this).addClass("active").siblings().removeClass("active");
+        })
+    </script>
+    <script>
+        const bar =document.querySelector(".bars")
+        const navm =document.querySelector(".navmobile")
+        bar.addEventListener("click",()=>{
+            navm.classList.toggle("show")
+        })
+    </script>
+    <script>
+        const mbar =document.querySelector(".mbar")
+        const aside =document.querySelector(".sidebar")
+        const close =document.querySelector(".close")
+        mbar.addEventListener("click",()=>{
+            aside.classList.add("show")
+        })
+        close.addEventListener("click",()=>{
+            aside.classList.remove("show")
+        })
+    </script>
+</body>
+</html>

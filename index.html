@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+    <script src="https://kit.fontawesome.com/c286026a79.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="container2">
+        <header>
+            <div class="logo">
+                <h1><img width="75" src="free-hashtag-41-675828.png" alt="">HashLink</h1>
+            </div>
+
+            <div class="bars">
+                <span><i class="fa-solid fa-bars"></i></span>
+            </div>
+            <div class="nav">
+                <ul class="navlist">
+                    <li>
+                        <h3><a href="index.html">Home</a></h3>
+                    </li>
+                    <li>
+                        <h3><a href="about.html">About</a></h3>
+                    </li>
+                    <li>
+                        <h3><a href="login.html">Login</a></h3>
+                    </li>
+                    <li>
+                        <h3><a href="registration.html">Registration</a></h3>
+                    </li>
+                    <li>
+                        <h3><a href="contact.html">contact</a></h3>
+                    </li>
+                </ul>
+            </div>
+            <div class="action">
+                <div class="profile" onclick="menuToggle();">
+                    <img src="user3.png" alt="">
+                </div>
+                <div class="menu">
+                    <h3>USERID<br><span>UserName</span></h3>
+                    <ul>
+                        <li><i class="fa-solid fa-user"></i><a href="user.html">My Profile</a></li>
+                        <li><i class="fa-solid fa-floppy-disk"></i><a href="dashboard.html">Analytics</a></li>
+                        <li><i class="fa-solid fa-envelope"></i><a href="user.html">Inbox</a></li>
+                        <li><i class="fa-sharp fa-solid fa-gear"></i><a href="user.html">Settings</a></li>
+                        <li><i class="fa-solid fa-comment"></i><a href="dashboard.html">Help</a></li>
+                        <li><i class="fa-solid fa-right-from-bracket"></i><a href="index.html">Logout</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div class="navmobile">
+            <ul>
+                <li>
+                    <span><i class="fa-solid fa-house-chimney-window"></i></span>
+                    <h3><a href="index.html">Home</a></h3>
+                <li>
+                    <span><i class="fa-solid fa-address-card"></i></span>
+                    <h3><a href="about.html">About</a></h3>
+                </li>
+                <li>
+                    <span><i class="fa-solid fa-phone"></i></span>
+                    <h3><a href="login.html">Login</a></h3>
+                </li>
+                <li>
+                    <span><i class="fa-solid fa-phone"></i></span>
+                    <h3><a href="registration.html">Registration</a></h3>
+                </li>
+                <li class="active">
+                    <span><i class="fa-solid fa-user"></i></span>
+                    <h3><a href="contact.html">Contact</a></h3>
+                </li>
+
+            </ul>
+        </div>
+
+
+
+        <div class="banner">
+            <!-- <div class="rightNav">
+                <input type="text" name="search" id="search">
+                <button class="btn btn-sm">Search</button>
+            </div> -->
+
+            <!-- <div class="search">
+                <form>
+                    <div class="row">
+                        <input type="text" placeholder="Search profile...">
+                        <button type="submit"><span><i class="fa-solid fa-magnifying-glass"></i></span></button>
+                    </div>
+                </form>
+            </div> -->
+
+            <img src="research7.png" alt="">
+            <div class="content" data-0-top="opacity:0;left:100px;" data-200-top="opacity:1;left:0px;">
+                <h2>Welcome to HashLink</h2><br>
+                <h6>"SearchSmart: Find Users, Amplify Networks"</h6><br>
+                <p>Hashlink aims to address the increasing need for a comprehensive and efficient tool to search and retrieve information from various social media platforms.Navigating through this vast amount of information can be challenging and time-consuming.The purpose of the Social Media Search Engine is to simplify the process of finding relevant information by providing users with a centralized platform to conduct searches across multiple social media channels.</p>
+            </div>
+        </div>
+
+        <!-- <section class="about">
+            <div class="contentbx">
+                <h2 class="heading" data-center-center="opacity:1;left:0;" data-0-bottom="opacity:0;left:500px;">Search by Category</h2>
+                <p class="text" data-center-center="opacity:1;left:0;" data-0-bottom="opacity:0;left:-500px;">Lorem
+                    ipsum dolor sit amet consectetur adipisicing elit. Delectus ut adipisci repellendus praesentium
+                    dolores explicabo, laboriosam cumque rem alias inventore autem dolorem, sapiente similique nulla
+                    culpa perferendis atque beatae non. <br><br>Lorem ipsum, dolor sit amet consectetur adipisicing
+                    elit. Esse, vero nesciunt deserunt at aperiam debitis. Sunt fugiat dolores eveniet deleniti nulla
+                    numquam quas. Alias maiores minima recusandae ullam necessitatibus, quae vitae optio. Qui obcaecati
+                    quibusdam, ab officia vitae eius, tempore laboriosam perspiciatis reprehenderit at corporis
+                    doloremque optio, eaque quae. Vel?<br><br><br><a href="dashboard.html">Search for Experts</a></p>
+                <div class="categories">
+                    <a href="" class="catlink">Engineering and technology</a><br>
+                    <a href="" class="catlink">Architecture</a><br>
+                    <a href="" class="catlink">Commerce and Management Studies</a><br>
+                    <a href="" class="catlink">Arts,Humanities and Social Sciences</a><br>
+                    <a href="" class="catlink">Science and Technology</a><br>
+                    <a href="" class="catlink">Law</a><br>
+                    <a href="" class="catlink">Arts and Indics Studies</a><br>
+                    <br>
+                    
+                    <li><a href="dashboard.html" class="catlink"><i class="fa-solid fa-computer"></i>Engineering and Technology</a></li><br>
+                    <li><a href="dashboard.html" class="catlink"><i class="fa-solid fa-archway"></i>Architecture</a></li><br>
+                    <li><a href="dashboard.html" class="catlink"><i class="fa-solid fa-cash-register"></i>Commerce and Management Studies</a></li><br>
+                    <li><a href="dashboard.html" class="catlink"><i class="fa-solid fa-masks-theater"></i>Arts,Humanities and Social Sciences</a></li><br>
+                    <li><a href="dashboard.html" class="catlink"><i class="fa-solid fa-flask"></i>Science and Technology</a></li><br>
+                    <li><a href="dashboard.html" class="catlink"><i class="fa-solid fa-gavel"></i>Law</a></li><br>
+                    <li><a href="dashboard.html" class="catlink"><i class="fa-brands fa-artstation"></i>Arts and Indics Studies</a></li><br>
+
+                </div>
+
+
+            </div>
+
+            <div class="imgbx" data-center-center="opacity:1;left:0;" data-0-bottom="opacity:0;left:200px;">
+
+            </div>
+        </section> -->
+
+        <!-- searchbar -->
+
+        <section class="searched">
+            <div class="container">
+                <form action="https://www.google.com/search" method="get" class="searchbarr" >
+                    <input type="text" placeholder="Search Anything" name="q">
+                    <button type="submit"><img src="search.png" alt=""></button>
+                </form>
+            </div>
+        </section>
+
+        <section class="services">
+            <h2 class="heading" data-center-center="opacity:1;left:0;" data-0-bottom="opacity:0;left:500px;">Our
+                Services</h2>
+            <p class="text" data-center-center="opacity:1;right:0;" data-0-bottom="opacity:1;right:500px;">Hashlink simplifies the process of finding relevant information by providing users with a centralized platform to conduct searches across multiple social media channels.The objective of the project is to provide users with a convenient and efficient means of accessing information on social media. Whether users are looking for specific keywords, trending hashtags, or accounts associated with a particular phone number or email ID, the search engine will deliver accurate and up-to-date results, saving users time and effort in their search endeavors.  </p>
+            <div class="container">
+                <div class="servicebx" data-center-center="opacity:1;left:0;" data-0-bottom="opacity:0;left:-400px;">
+                    <div class="imgz">
+                        <img src="rs.png" alt="" id="img1">
+                        <h2>Cross Platform Search</h2>
+                    </div>
+                </div>
+                <div class="servicebx" data-center-center="opacity:1;bottom:0;"
+                    data-0-bottom="opacity:0;bottom:-400px;">
+                    <div class="imgz" >
+                        <img src="icon1.png" alt="">
+                        <h2>Trending topics and hashtags</h2>
+                    </div>
+                </div>
+                <div class="servicebx" data-center-center="opacity:1;right:0;" data-0-bottom="opacity:0;right:-400px;">
+                    <div class="imgz">
+                        <img src="icon2.png" alt="">
+                        <h2>Website Discovery</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="technology">
+            <div class="contentbx" data-center-center="opacity:1;left:0;" data-0-bottom="opacity:0;left:-400px;">
+                <h2 class="heading">Our core objectives</h2>
+                <p class="text">User Interface Design: The search engine will feature a user-friendly interface that
+                    allows users to enter their search queries easily. The interface will be designed to
+                    provide a seamless and intuitive experience, enabling users to navigate search results
+                    and access additional information effortlessly. <br><br> Performance Optimization: The project will focus on optimizing the performance of
+                    the search engine to ensure fast response times and efficient data retrieval.
+                    Techniques such as caching, query optimization, and parallel processing will be
+                    employed to enhance the search engine's performance <br><br>Continuous Improvement: The project will adopt an iterative approach, continuously
+                    refining and enhancing the search engine based on user feedback and emerging
+                    trends in social media. Regular updates and feature additions will be made to keep
+                    the search engine up-to-date and aligned with user expectations.
+                    </p>
+            </div>
+            <div class="imgbx" data-center-center="opacity:1;right:0;" data-0-bottom="opacity:0;right:-400px;">
+                <img src="social-media-7453986_1280.png" alt="">
+            </div>
+        </section>
+
+        <section class="client">
+            <h2 class="heading" data-center-center="opacity:1;top:0;" data-0-bottom="opacity:0;top:-100px;">Our Clients
+            </h2>
+            <p class="text" data-center-center="opacity:1;bottom:0;" data-0-bottom="opacity:0;bottom:-100px;">At Hashlink, we take pride in serving a diverse range of clients, including individuals, businesses, and organizations. Our powerful social media search engine provides comprehensive and reliable results to help our clients meet their specific needs. Here are some of the clients who benefit from our services:
+            <div class="imgbx">
+                <img src="brand1.png" data-center-center="top:0;" data-0-bottom="top:100px;">
+                <img src="brand2.png" data-center-center="top:0;" data-0-bottom="top:150px;">
+                <img src="brand3.png" data-center-center="top:0;" data-0-bottom="top:200px;">
+                <img src="brand4.png" data-center-center="top:0;" data-0-bottom="top:250px;">
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <h2 class="heading">What Our Client says</h2>
+            <div class="container">
+                <div class="contentbx" data-center-center="opacity:1;left:0;" data-0-bottom="opacity:0;left:-400px;">
+                    <div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et sint vero inventore nulla nihil
+                            perferendis eligendi, voluptate, voluptatibus eaque illo odio provident similique blanditiis
+                            nostrum possimus. Quisquam modi sequi sapiente. Saepe quaerat quos doloribus, temporibus
+                            placeat magni deleniti doloremque? Minus omnis iure dolores placeat ab provident, cupiditate
+                            quae nihil neque?</p><br>
+                        <h3>Someone Famous</h3>
+
+                    </div>
+                </div>
+                <div class="contentbx" data-center-center="opacity:1;right:0;" data-0-bottom="opacity:0;right:-400px;">
+                    <div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et sint vero inventore nulla nihil
+                            perferendis eligendi, voluptate, voluptatibus eaque illo odio provident similique blanditiis
+                            nostrum possimus. Quisquam modi sequi sapiente. Saepe quaerat quos doloribus, temporibus
+                            placeat magni deleniti doloremque? Minus omnis iure dolores placeat ab provident, cupiditate
+                            quae nihil neque?</p><br>
+                        <h3>Someone Famous</h3>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer  -->
+
+        <footer>
+            <div class="row">
+                <div class="col">
+                    <img src="GCID - Logo PNG.png" class="logo2">
+                    <p>HashLink-Search Hashtags by user.</p>
+                </div>
+                <div class="col">
+                    <h3>Contact Us<div class="underline"><span></span></div>
+                    </h3>
+                    <p>#82,Near Sri Krishna Polytechnic,</p>
+                    <p>Chikkabanavara,</p>
+                    <p>Bangalore-56090</p>
+                    <p class="email">info@Anarg.com</p>
+                    <h4>+91 7022337136</h4>
+                </div>
+                <div class="col">
+                    <h3>Links<div class="underline"><span></span></h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="login.html"></a>Login</li>
+                        <li><a href="registration.html"></a>Registration</li>
+                        <li><a href="contact.html"></a>Contact</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3>Newsletter<div class="underline"><span></span></h3>
+                    <form>
+                        <i class="fa-regular fa-envelope"></i>
+                        <input type="email" placeholder="Enter your email id" required>
+                        <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+                    </form>
+                    <div class="social-icons">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <i class="fa-brands fa-github"></i>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright © 2023 Anarg, Inc. All rights reserved.</p>
+        </footer>
+
+        <!-- <script src="skrollr.js"></script> -->
+        <script type="text/javascript">
+            var s = skrollr.init();
+        </script>
+
+        <script src="jquery-3.6.1.min.js"></script>
+        <script>
+            $(".sidenav ul li").click(function () {
+                $(this).addClass("active").siblings().removeClass("active");
+            })
+        </script>
+        <script>
+            const bar = document.querySelector(".bars")
+            const navm = document.querySelector(".navmobile")
+            bar.addEventListener("click", () => {
+                navm.classList.toggle("show")
+            })
+        </script>
+        <script>
+            function menuToggle() {
+                const toggleMenu = document.querySelector('.menu');
+                toggleMenu.classList.toggle('active')
+            }
+        </script>
+</body>
+
+</html>
